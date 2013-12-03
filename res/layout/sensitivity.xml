@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:gravity="center"
+	android:padding="20dp" android:id="@+id/popup_container">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/dialog_sensitivity_text"
+		android:textSize="18sp" android:layout_marginBottom="20dp" />
+
+	<SeekBar android:id="@+id/seekbar_sensitivity" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:max="20" />
+	<TextView android:id="@+id/seekbar_sensitivity_value" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="0" android:gravity="center"
+		android:textSize="18sp" />
+
+	<Button android:id="@+id/button_sensitivity_close" android:text="Save"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginTop="20dp" android:paddingLeft="50dp" android:paddingRight="50dp" />
+
+</LinearLayout>

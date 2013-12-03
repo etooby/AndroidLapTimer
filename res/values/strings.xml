@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CameraPreview!</string>
+    <string name="app_name">Mini4WD Lap Timer</string>
+    <string name="label_calibrate">Calibrate</string>
+    <string name="label_sensitivity">Sensitivity</string>
+    <string name="label_status_init">Not calibrated</string>
+    <string name="label_status_calibrating">Calibrating...</string>
+    <string name="label_status_ready">Ready</string>
+    <string name="label_status_started">Started</string>
+    <string name="dialog_tutorial_text">1) Place the phone with the camera facing on a track lane. Keep it still.\n2) Press calibrate.\n3) Press start, the timer will start when the car passes.\n4) If you get weird data, try recalibrating. A well-lit environment helps.</string>
+    <string name="menu_tutorial_label">Show tutorial</string>
+    <string name="menu_sensitivity_label">Adjust sensitivity</string>
+    <string name="menu_email_label">Send times via email</string>
+    <string name="menu_mail_laps">Send as email</string>
+    <string name="dialog_sensitivity_text">Adjust lap timer sensitivity. Default is 15.</string>
+    <string name="error_camera_locked_text">Phone camera is already in use by other programs.</string>
+    <string name="error_camera_null_text">Could not start phone camera.</string>
+    <string name="error_laps_empty">No data to send.</string>
+    <string name="error_timer_started">You must stop the timer to send data.</string>
+</resources>

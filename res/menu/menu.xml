@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:id="@+id/menu_sensitivity"
+		android:title="@string/menu_sensitivity_label" android:icon="@android:drawable/ic_menu_sort_by_size"/>
+	<item 
+		android:id="@+id/menu_email"
+		android:title="@string/menu_email_label" android:icon="@android:drawable/ic_menu_send"/>
+	<item 
+		android:id="@+id/menu_tutorial"
+		android:title="@string/menu_tutorial_label" android:icon="@android:drawable/ic_menu_info_details"/>
+</menu>

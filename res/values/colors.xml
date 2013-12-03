@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="bg">#EEEEEE</color>
+    <color name="text">#035AA2</color>
+    <color name="red_bar">#FF0000</color>
+    <color name="red_text">#E5464C</color>
+</resources>
