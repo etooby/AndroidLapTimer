@@ -335,7 +335,6 @@ public class TimerActivity extends Activity implements SurfaceHolder.Callback, C
 			case R.id.button_start: {
 				
 				if (!isCalibrated || isCalibrating) {
-					
 					// non è calibrato
 					break;
 				}
